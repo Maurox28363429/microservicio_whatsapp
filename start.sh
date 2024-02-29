@@ -1,0 +1,1 @@
+sudo docker run -e PORT=3001 -p 3001:3001 -p 3002:3002 botwhatsapp:latest

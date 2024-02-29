@@ -95,8 +95,8 @@ const main = async () => {
     });
 
     // Start the Express server
-    appExpress.listen(3001, () => {
-        console.log('Express server is running on port 3000');
+    appExpress.listen(3002, () => {
+        console.log('Express server is running on port 3002');
     });
     QRPortalWeb()
 }

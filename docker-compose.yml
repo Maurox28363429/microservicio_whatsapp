@@ -1,0 +1,9 @@
+version: '3'
+services:
+  botwhatsapp:
+    image: botwhatsapp:latest
+    environment:
+      - PORT=3001
+    ports:
+      - 3001:3001
+      - 3002:3002
